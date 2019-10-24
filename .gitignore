@@ -1,0 +1,9 @@
+# SASS cache
+.sass-cache/
+
+# Virtual environment
+.venv/
+Pipfile*
+
+# Project files
+*.sqlite3
