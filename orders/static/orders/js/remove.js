@@ -16,6 +16,9 @@ function removeFromCart(order_class, order_id) {
 
 function setOrderPrice(order_price) {
   const span = document.querySelector("#order-price");
+  if ((span === null) || (span === undefined)) {
+      return
+  }
   span.innerText = "$" + order_price;
 
   const a = span.closest("a");
